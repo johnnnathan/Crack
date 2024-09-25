@@ -1,0 +1,19 @@
+Solution to "dotqw's first c(rack me)" by 0ya3um1
+
+This is the first .NET application that I have cracked, so I needed some new tools to crack this program.
+I did attempt to use ghidra to decompile, and x64dbg to debug but neither of them were helpful. JetBrains' "dotPeek" application
+is a wonderful tool that I'll use instead. 
+
+The program just asks for a password, which probably means there won't be any moving part in the back-end. I looked at the Form object, 
+which probably is what we see when we run the app, and under it there are a few more components. The checkButton component immediately 
+caught my attention, since there will probably be a password check close to its declaration in the code. The first line shows 
+
+"if (this.keyfield.Text == "XOQIBwcLudyp6NG")"
+
+which when tried results in a success screen.
+
+
+
+Have a great day :)
+
+github.com/johnnnathan
