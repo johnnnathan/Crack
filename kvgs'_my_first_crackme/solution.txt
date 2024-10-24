@@ -1,0 +1,39 @@
+Solution to "my first crackme" by kvfs
+
+When starting this application we are only asked for a password. Since there is no username requirement I immediately knew that this 
+would use either a static password or a math heavy generation algorithm. I loaded it up in ghidra and found the 
+main method to be quite simple. C/C++ applications usually have an easy to find entry point.  
+
+An output and input call are immediately used to print the message to the terminal and receive the user's password. Then a few variable 
+assignments and conditionals can be found that compare a lot of values to 15, and then one final if statement can be found that breaks 
+out of the infinite input loop, if all the conditions are met. Skipping the accompanying jumps in the debugger informs us that the 
+password is correct. Since we know that we need to fullfil the conditions inside that final if statement we should analyze them more. 
+
+The output of the memcmp call before it needs to be equal to 0, two variables need to be equal to each other and another variable 
+needs to be greater than 3.
+
+if (memcmpResult == 0 && var2 <= var3 && var3 <= var2 && var4 > 3) can be simplified to if(memcmpResult == 0 && var2 == var3 && var4 > 3)
+
+The creator of the crackme added in the description that said that the password needs to be at least 3 characters long so we know that 
+that is embodied in the final condition, meaning that we won't have to spend any time on it. 
+
+Following the execution of the program inside the debugger we can see that after a custom function call the reversed given password can 
+be seen inside the cpu registers. The length of the password can also be found inside them, assisting me in the decompilation process.
+Another string can also be found inside the stack, it is longer than the given password and contains what seem to be random values if 
+the password given consists of only numbers. In reality it is the inverted password but instead of using the decimal notation 
+ASCII notation is used. 
+
+The value of the inverted string is stored inside a buffer object in ghidra. Looking at the decompiled version of the code we see that 
+the same object is used in the memcmp call alongside the original password. We can realize then that the original and inverted password 
+then need to share some property that allows them to be evaluated as the same. Anybody with some coding experience will think of the 
+concept of palindromes. Palindromes in short are words or strings that are read the same way front to back as they are back to front. 
+
+Ex.
+12321
+ABBA
+EeveE
+
+Inputting 11111, or any other palindrome, as the password gives us a "Password Accepted" message.
+
+Have a great day :)
+github.com/johnnnathan
