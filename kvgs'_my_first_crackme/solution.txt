@@ -25,7 +25,7 @@ ASCII notation is used.
 
 The value of the inverted string is stored inside a buffer object in ghidra. Looking at the decompiled version of the code we see that 
 the same object is used in the memcmp call alongside the original password. We can realize then that the original and inverted password 
-then need to share some property that allows them to be evaluated as the same. Anybody with some coding experience will think of the 
+then need to share some property that allows them to be evaluated as the same. Anybody with some coding experience will to the 
 concept of palindromes. Palindromes in short are words or strings that are read the same way front to back as they are back to front. 
 
 Ex.

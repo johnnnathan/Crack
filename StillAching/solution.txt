@@ -1,0 +1,24 @@
+Solution to "StillAching's CrackMe" by StillAching 
+
+This is a relatively easy CrackMe despite having a 6.0 difficulty rating at this moment. 
+
+Although this application can be statically analyzed, it utilizes a lot of functions that make it difficult to understand the execution 
+process. Running it in a debugger still suffers from that fact, but the impact is much lesser. 
+
+The input is given by the user and then many jumps and method calls occur. At a certain point a jump happens and the failure message is 
+shown. We can follow the execution in reverse and by finding the references to the destination of the jump and we come across the code 
+snippet where the comparison between the given and the stored password takes place. 
+
+```
+mov rcx, rbx
+call function 
+test eax,eax 
+jump
+```
+
+
+The rbx register holds a location inside the dump. Looking inside we see a big block of data that is neatly organized. One interesting 
+value is "StillAching@CrackMes.one" which when given as the password results in a Password Accepted message
+
+Have a great day :)
+github.com/johnnnathan
