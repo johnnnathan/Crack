@@ -1,0 +1,27 @@
+Solution to "XOR Crackme" by 2koy 
+
+This is a simple C++ crackme that should not take more than half an hour to solve for even the newest Reverse Engineers.
+
+As can be Understood through reading the name, this application uses an XOR operation somewhere in password creation/evaluation.
+Loading it up and finding the main method is easy enough. After the entry point find the method call with three parameters, since that 
+is the pattern C++ applications follow. There are of course some variable initializations and an output and input method call to 
+request the user to input the password and of course accept the password. 
+
+In the initialization block we can find a variable that is initialized with a hexadecimal string which will be important later. 
+Immediately after the input method call there is another function that uses the password given as a parameter. Delving inside the method
+we can find some unimportant steps and at the end an XOR application that is applied on each character in the password. The value the 
+characters are XORed with is ox4b which translates to 75 in decimal. We can then see that a value is compared to 0xb(11) and then 
+a memcmp call which uses the generated password alongside another value. 
+
+The other value is definitely the stored password but turning it into string and giving it as input won't work, because of the XOR 
+operation. I spent some time thinking about ways to reverse the XOR operations and then realized that the inverse of XOR is XOR itself. 
+We need to run the stored password through the XOR operation using the value of 0x4b and then use the result as the password. 
+
+The hex representation 0x2f39243c38382a1b393e04 is in little endian so we will have to input the characters in reverse. XORing the 
+string per two hex symbols(remember, ASCII has 256 symbols which is one byte or two hex values(16*16 = 256)) gives us "drowssaPruO" or 
+"OurPassword" in Big-Endian. 
+
+Giving it as an input and stepping through the assembly gives us a Access Granted message.
+
+Have a great day :)
+github.com/johnnnathan
