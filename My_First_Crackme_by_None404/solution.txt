@@ -41,3 +41,6 @@ to the program results in a success message.
 
 Note: In the first version of my XOR reversal script for some reason the first character past the "flag-" part was c, but that was not accepted.
 I had to manually perform the operation for that character. I do not know why that is but it should not affect you in any way. 
+
+Have a great day :)
+github.com/johnnnathan
