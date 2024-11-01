@@ -8,7 +8,7 @@ If you can't do it yourself the password is "YourPass".
 The problem that I faced was the fact that I could not differentiate between the 'P' inside the decompilation and the 'p' character because
 they looked too similar. I thought that there was some evil engineer behind this that hid some code in the seams but no. 
 
-There is one loop in the main method that XORs the "YourPass" string with 0d10e.
+There is one loop in the main method that XORs the "YourPass" string with 0d10.
 The given password is also XORed using the same value and the result compared to the stored XORed password. 
 So, the stored password is XORed and the given password too, and since the stored password is equal to "YourPass" the given pass should also. 
 Giving "YourPass" as the given password results in a spanish Success message. 
