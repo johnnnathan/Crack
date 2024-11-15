@@ -1,3 +1,4 @@
+## Keygen for "My First Crackme" by None404
 string = "+!,*`.|{/)x/.`+,}z`y|t,`/(u}`}ty{y,|.}(tz"
 
 key = 77

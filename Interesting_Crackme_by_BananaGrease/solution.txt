@@ -1,0 +1,25 @@
+Solution to "Interesting Crackme" by BananaGrease
+
+Very simple challenge, to get back into groove. I completed this challenge through just the debugger.
+
+Load up the executable into your debugger and search for strings. There is a string for the failure scenario
+and one for the success scenario. My debugger did not stop at them so I spread out breaks at many points in the function. 
+
+I gave as username the string "abcdefgh" and as password the string "1231231231231231" (I explain this later). On the stack
+there is a string with the value of "acegikmo()*+,-./". With some pattern recognition you can tell that the characters of the 
+username are incremented by a certain value and the remaining characters filled up with a set pattern (This can be seen 
+through using different combinations).
+
+The amount they get incremented by is their position inside the string. So the first element gets incremented by 0, the second 
+by 1, the third by 2 etc. since we use 0-indexing.
+
+By setting the username to 0 we can find that the pattern is "X!\"#$%&'()*+,-./"(More on this under the end note). 
+
+What remains is putting all the information together and writing a keygen.
+
+
+
+!Note on the set pattern:
+The set pattern is not actually set, it is a by-product of the way the application is programmed, as can be seen through the 
+code posted by the creator of the challenge. The password string is initialized with spaces which means that incrementing the 
+value with the position index will result in the symbol pattern found.

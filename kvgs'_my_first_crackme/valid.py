@@ -1,3 +1,6 @@
+## Keygen for "my_first_crackme" by kvgs
+## Have a great day :)
+## github.com/johnnnathan
 password = input("What is your password? ")
 
 length = len(password) - 1

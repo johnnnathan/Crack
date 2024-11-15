@@ -1,4 +1,4 @@
-# Keygen to Licence Keygen By 999
+# Keygen for "Licence Keygen" By 999
 # 
 # Another .NET program. We will use dotPeek just as we did for "dotqw's first crackme". 
 # I put the application in the program and started searching for objects that I could use to find the password.
