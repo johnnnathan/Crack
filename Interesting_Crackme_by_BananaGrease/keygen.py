@@ -13,4 +13,5 @@ for i in range(13):
 for char in range(len(name)):
     name[char] = chr(char + ord(name[char]))
 
-print(name)
+for char in range(len(name)):
+    print(name[char], end="")
