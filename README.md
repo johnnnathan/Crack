@@ -10,7 +10,7 @@ This repository contains write-ups and solutions for various challenges from the
 
 ## How to Use
 
-To explore a solution, navigate to the corresponding folder, read the `solution.txt` file for guidance, and run `keygen.py` if you’d like to generate keys for testing.
+To explore a solution, navigate to the corresponding folder, read the `solution.txt` file for guidance, and run `keygen.py` if you’d like to generate keys for testing. Decompilations can be sometimes found inside the folder of the challenge, they are usually written in bare c, and are close enough to the source code where it allows for experimentation. It is not a byte/operation perfect decompilation, use it just as a reference.
 
 ## Plans 
 - I will try to solve at least one difficult crackme a week and multiple easier ones, adding the write-ups to this repository. I currently in Uni so I don't have infinite time but can usually spend a couple hours a day on it. 
