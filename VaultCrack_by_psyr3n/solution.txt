@@ -1,0 +1,16 @@
+Solution to "VaultCrack" by psyr3n
+
+
+Although a simple challenge, I got to use my custom tool "Harpocrates" to solve this. 
+
+Load the executable into ghidra, or any other disassembler/decompiler. You will find a method by the name of _check_password. 
+Inside you can see the initialization of a lot of values. They are all in hex, which you likely will not be able to 
+decode yourself. At the end of the function you can find a strcmp call with parameters, the parameter passed to it and 
+the string created through the hex values.
+
+Using my app, or literally any other that completes the same operation, you can add all the values sequentially, as
+they are shown in the function and decode them into an ASCII representation, which will allow us to use it as input. 
+It spells out "Be_White_Hat", which when passed as the password will give you a "Welcome !" message.
+
+Have a great day :)
+github.com/johnnnathan
