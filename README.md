@@ -14,8 +14,6 @@ This repository contains write-ups and solutions for various challenges from the
 To explore a solution, navigate to the corresponding folder, read the `solution.txt` file for guidance, and run `keygen.py` if you’d like to generate keys for testing. Decompilations, inside the `decompilation.c/.cpp` file, can be compiled with the compiler of your choice and run without much thought. I develop them on linux, so windows users might face issues(I try to keep them as cross-platform as I can).
 
 ## Plans 
-- Currently on vacation, I will come back on the second week of January. Till then I'll be studying reverse engineering, prepare for greatness. Disregard the next point :).
-
 - I will try to solve at least one difficult crackme a week and multiple easier ones, adding the write-ups to this repository. I am currently in Uni so I don't have infinite time but can usually spend an hour a day on it. 
 
 - I have started developing a GUI app called Harpocrates, which can be found on my github profile. I will try to keep it updated and add features semi-regularly. More information can be found there.
