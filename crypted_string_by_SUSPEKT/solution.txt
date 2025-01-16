@@ -1,0 +1,18 @@
+Solution to "crypted string" by SUSPEKT 
+
+Running the app we get an "Enter:" prompt and entering a random string of character gives us a "FIMOZ OWNER ACCES DENIED!!!!", I 
+don't know what the language is, but I do know that the password was not correct. 
+
+Loading up the executable into ghidra and searching for strings does not give us anything of note, I was also not able to get the 
+"Enter:" string to show up, meaning that I had to search myself for the main method. Since it is c/c++ it is easy enough to do so, 
+by following the call with 3 arguments passed to it.
+
+There is a call to std::cout and one to std::cin, mirroring the behavior that we see when we execute it. Setting a breakpoint at the 
+same point in a debugger we can step through the assembly and better understand the flow of the program. If we pay attention to the 
+cpu registers we can see that RDX is populated after the "lea rdx, qword ptr ss:[rbp-60]" operation, with the result of the decryption 
+function. The string inside the RDX register is "crackmeYG" and if we pass that as input to the program the window 
+shuts down, meaning that we have found the password.
+
+The encryption algorithm works by initializing posititions at a set offset on the stack with a pair of values. When the second value 
+is subtracted from the first one, the ASCII code of the decrypted string's xth character is computed. If done for every character in 
+the sequence the full decrypted string will have been computed. 
