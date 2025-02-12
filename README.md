@@ -24,4 +24,4 @@ Feel free to suggest improvements to existing solutions or request solutions to 
 
 
 ## Notes
-I am still a student of this craft and thus many of my solutions may be sub-optimal or may use bad habits. Make sure to study other peoples solutions too. 
+I am still a student of this craft and thus many of my solutions may be sub-optimal or may use bad habits. Make sure to study other people's solutions too. 
