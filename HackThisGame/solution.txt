@@ -1,0 +1,14 @@
+The first level of this game requires us to gather 5 Million coins, this would take too long of course to do manually so we will have 
+to find the memory location that holds the value of collected coins. This can be done using CheatEngine. 
+Attach CE to the process and then start scanning the memory. Since the value of collected coins appears above the the player 
+model we can use that as the input to the Exact Value Scan Type. Since many memory addresses can hold the same value we will have to do 
+it a few times to ensure that the address we have found is the correct one. We can identify the correct address by modifying the value 
+that it holds and seeing the impact that it has on the game. Raising the correct value to 5 million will result in the Coin number, 
+and the wall that was blocking us from accessing Level 2, disappearing.
+
+Level 2 requires us to modify the y value of the player. We can use relative comparisons, with an unknown first value to find the 
+address as we did before. Find a platform and jump up and down while continuing to scan for relative values. One thing that you should 
+note is the fact that since the origin point of the coordinate system is positioned at the top-left corner, the y value decreases, 
+instead of increasing, when moving up(GUI libraries like javafx work the same way). There are more addresses this time with the same 
+value, many of them mirroring the address that we are searching for, but the correct one can be found using method we used for Level 1. 
+Change the value of the correct address to -1200, follow the maze until you have reached the end.
