@@ -1,6 +1,6 @@
 # Reverse-Engineering Challenge Write-ups
 
-This repository contains write-ups and solutions for various challenges from the [crackmes.one](https://crackmes.one/) website. Each folder corresponds to a specific challenge and is organized by the challenge name and its author.
+This repository contains write-ups and solutions for various challenges from the [crackmes.one](https://crackmes.one/) and [crackmy.app](https://crackmy.app/) websites. Each folder corresponds to a specific challenge and is organized by the challenge name and its author.
 
 ## Repository Structure
 
