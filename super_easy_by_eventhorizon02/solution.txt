@@ -1,0 +1,8 @@
+Load up ghidra and open the binary.
+
+Inside the main function there is a call to "check_pass()". Follow the call and you will see two interesting things. The password is 
+passed to the program through arguments, and the length of the password needs to be a multiple of three, while also being a 
+prime number. Looking up a list of 3 digit prime numbers and passing a few of them as input to the program will grant us a flag.
+
+Have a great day :)
+github.com/johnnnathan

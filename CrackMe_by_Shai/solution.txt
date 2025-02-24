@@ -1,0 +1,6 @@
+Open x64dbg and load up the executable, find the "Enter the password: " string and break at: cmp qword ptr ss:[rsp+30],9. Now, right 
+click on the line and Follow the address into the dump. There you should be able to see "G0Cr@ckM3" which is the value that the 
+given password is being compared to.
+
+Have a great day :)
+github.com/johnnnathan

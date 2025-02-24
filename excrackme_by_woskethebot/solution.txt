@@ -1,0 +1,15 @@
+This challenge can be solved through static analysis, but I found the decompilation to be a bit annoying to read, so I used a 
+debugger instead.
+
+  
+
+Load up the executable into x64dbg and search for strings. Follow the "enter license key:" string to find the main method. 
+At one point in the function there are three comparisons, alongside their corresponding jumps, in quick succession. 
+The innermost jump breaks out of the loop that keeps asking for input when it's wrong. The first condition checks if 
+the length of the input is equal to 5, the second checks if the first four characters are equal to 0x30343132, and 
+the third one if the final character is equal to '1'. Giving "04121" as the input to the program won't work because 
+the data has been formatted in Little Endian, this means that we have to reverse the first part of the input. 
+If we pass "21401"  as input to the program we will get a "Correct Key" message.
+
+Have a great day :)
+github.com/johnnnathan

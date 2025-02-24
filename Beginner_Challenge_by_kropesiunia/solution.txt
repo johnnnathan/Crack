@@ -1,0 +1,20 @@
+For this challenge we are only expected to patch the function to always accept a password. I encountered some issues with this 
+program and I was not able to execute it, my solution should be correct but may require some minor tweaks.
+
+Open ghidra and load up the executable. Search for strings and find the "Please enter the password:" entry. Find the function in which 
+the string gets used and we can start patching. A few lines after the message gets used we can find a comparison and a jump.
+
+`
+MOVZX EAL, AL
+TEST EAX, EAX
+JZ LAB...
+`
+
+If the value in EAX is \0, the JZ (jump if zero) instruction executes, leading to the "Access Denied" message. We don’t want that 
+to happen, so we’ll modify this jump. To always reach the "Access Granted" message we can change the "JZ LAB" instruction into a 
+"NOP" instruction, this means that NO Operation will be performed and thus the program will step into the conditional block that 
+we want it to. At the end of the code block the code will jump into the cleanup area of the code, so we don't have to worry about
+any other operations reverting our progress.
+
+Have a great day :)
+github.com/johnnnathan

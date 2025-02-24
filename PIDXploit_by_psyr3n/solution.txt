@@ -1,0 +1,9 @@
+Load up the executable in your favourite disassembler and locate the main method. There is a printf call , then a scanf function 
+handling our input and a call to _generate_password. Inside the function the ID of the current process is fetched and added to 
+the end of "EndIsNear-". The result is then compared against our input, and a message is shown depending on the result of the condition.
+
+The easiest way to find the PID of the program is to open up Task Manager and enable the PID option by right clicking on the name header.
+
+
+Have a great day :)
+github.com/johnnnathan

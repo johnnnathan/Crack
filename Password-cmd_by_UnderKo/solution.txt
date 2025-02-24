@@ -1,0 +1,11 @@
+The evaluation function for the given password is quite simple. The given input is passed through the sscanf() function with the %d 
+type parameter, this means that the programs tries to extract an integer from the input and store the output to another variable. 
+The output is then compared against the value 10 and if they are equal the success message is shown. This means that we just need 
+to pass '10' as input without any other characters before it, characters that come after it will be disregarded as long as they 
+are not numbers, since that will change the result of the sscanf function call.
+
+Weirdly enough, the output of the sscanf function is stored in an array, and the first element is tested in the condition, 
+so giving invalid input after a successful  attempt will still show the success message.
+
+Have a great day :)
+github.com/johnnnathan
