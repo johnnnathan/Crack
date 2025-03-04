@@ -1,0 +1,4 @@
+Since the creator of the challenge specifies that any form of solution is accepted we will just use a debugger to get the correct password. The stored password seems to be pseudo-random changing every time the program is ran. At the point where we need to give the password to the program we can look at the CPU registers and find the stored password inside R13. Giving the stored password as input will give us a success message.
+
+Have a great day :)
+github.com/johnnnathan

@@ -1,0 +1,4 @@
+In the main function of the program we can find a few function calls that accept ciphertext as input. Looking at the function's code we can tell that the input is iterated over character by character and the ascii value operated upon before being stored and eventually returned. The operation itself is a simple XOR with the decimal value of the second parameter of the function. The first call uses the string "1: 1&t <1t$5''#;&0n" and the key 0x54, which if decrypted give us "enter the password:". The second call holds the value of the stored password, if we decrypt it using the same method we will get "1tcCTpT98dQbnqNECHIwj7vy0yjy1t" which if given as the input to the program will give us a success message.
+
+Have a great day :)
+github.com/johnnnathan

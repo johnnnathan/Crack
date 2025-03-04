@@ -1,0 +1,4 @@
+Running the program makes a terminal window open and immediately shut down again. Disassembling the program to get a better understanding of its functionality will show us that instead of giving the password as typed input, it needs to be passed as an argument. The given password is compared against the string "pizza". Depending on the disassembler that you use it might show up as little endian so you will have to adjust for it. Giving "pizza" as an argument and stepping through the program will show us a success message.
+
+Have a great day :)
+github.com/johnnnathan
