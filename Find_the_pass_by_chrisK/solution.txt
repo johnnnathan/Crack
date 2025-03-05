@@ -1,0 +1,4 @@
+The program uses arguments to accept the password. As a condition in the if statements the given password is compared against "pcx|xpzlhgu}" using a memcmp call. If the two strings are equal then a success message is shown
+
+Have a great day :)
+github.com/johnnnathan

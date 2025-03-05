@@ -1,0 +1,4 @@
+This program requests three keys from the user and if they are all valid the flag gets shown. Inside the "valid_key()" function the program checks if the string has a length of 11 and if the first character of the string is equal to "A" and the fourth and eighth equal to "-", no other characters are checked so we can randomly pick their values. The same key can also be used, so using "A----------" three times will grant us the flag.
+
+Have a great day :)
+github.com/johnnnathan

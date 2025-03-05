@@ -1,0 +1,4 @@
+In the description of the challenge we can see that the program was written in the Lazarus language, this means that we won't be able to determine what is happening by using the classic c/c++ function calls. The lazarus language is easy to understand when decompiled though. There are a few function calls that setup the input and output. Before the first conditional statement we can find a call to "FPC_ANSISTR_COMPARE_EQUAL" which compares the value that we gave to the second argument. The second argument is stored in plaintext and is "11111". Giving "11111" as input will give us a success message.
+
+Have a great day :)
+github.com/johnnnathan

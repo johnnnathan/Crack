@@ -1,0 +1,4 @@
+At the top of the main function a variable is initialized with the value 0x3f or "?". The first input is then saved to another varaible and their values compared. If they are the same a success message is shown. The program starts off by saying that the answer is right in front of our eyes and the "what have you found" message is missing a question mark at the end so it could have been solved even without looking at the assembly. 
+
+Have a great day :)
+github.com/johnnnathan

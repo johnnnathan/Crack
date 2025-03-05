@@ -1,0 +1,4 @@
+This challenge follows the same format at the previous one but this time the passowrd needs to have a length of 11, "A" as the first character and "X" as the fourth and eight character. Giving "AXXXXXXXXXX" three times gives the flag but the keygen can also be used.
+
+Have a great day :)
+github.com/johnnnathan
