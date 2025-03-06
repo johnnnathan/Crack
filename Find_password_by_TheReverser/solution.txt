@@ -1,0 +1,4 @@
+Inside the main function the program asks the user to give their password in Italian. After function call where the input is handled the program performs a memcmp operation using our given password and the stored password. The stored password is equal to "djejie" and if we pass that as input we will get a "benvenuto" message.
+
+Have a great day :)
+github.com/johnnnathan

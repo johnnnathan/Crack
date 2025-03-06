@@ -1,0 +1,13 @@
+This is a .NET application so we can use dotPeek to get the full decompilation of the program. Inside WindowsApplication2/Form1/Button1_Click function there is a concatenation of strings that the password is compared against. The password must be equal to Label6.Text + Label7.Text + Username + Label8.Text. If they are equal a success message is shown.
+
+Example:
+
+Label6 = 092
+Label7 = 246
+Label8 = 21
+Username = 123
+
+Password = 09224612321
+
+Have a great day :)
+github.com/johnnnathan
