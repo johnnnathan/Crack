@@ -1,0 +1,4 @@
+I encountered some problems when running this program but the challenge can be solved through just static analysis. Inside the main function there are two calls to a function, one with the argument "bignutslover99" passed to it and another with "HolyCowBalls111222" passed to it. The output and input are then handled and the input compared against the stored credentials. If the result of both comparisons are not 0, meaning that the values are equal, the success message will be shown. 
+
+Have a great day :)
+github.com/johnnnathan
