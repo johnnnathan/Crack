@@ -1,0 +1,4 @@
+This program uses some heavy code obfuscation which results in the main function and strings being difficult to find. Searching for the debug message that is given will land us in the "main" function. Here input and output is handled as well as the validation of the given key. The program loops over all of the characters of the given key and XORs them with the value 0xaa. The resulting character is compared against the bytes of the stored password and if they are all correct a "good job!" message is shown. 
+
+Have a great day :)
+github.com/johnnnathan
