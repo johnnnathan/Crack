@@ -1,0 +1,6 @@
+In this challenge we give a key to the program, the characters of which are then evaluated in custom if statements, depending on their index. Our goal is to get a final score of 10 correct characters, which means that we have to carefully craft a string. Covering each if statement individually would take too long so it's easier to lay out the general pattern of each if statement.
+
+Depending on the index of the character a different number is used as a limit, the character at the position is then compared against it using a unique jump statement. Some blocks use 'je' others 'jge' or 'ja'. If the conditions are not tripped the score of the correct characters is decremented, which complicates the formation of the string. The easiest way to get a correct string is to manually pick the next highest or the next lowest value depending on the requirements of the block and then adding a padding character to the end. I was able to get "HlVf2z8L22", which results in "Password is correct! ;)" being printed to the terminal.
+
+Have a great day :)
+github.com/johnnnathan
