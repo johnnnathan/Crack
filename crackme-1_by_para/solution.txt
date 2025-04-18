@@ -1,0 +1,6 @@
+The program asks for a key and then calls a function that performs shifts and modulo operations upon its characters. The result of the function is the compared against 0x54a337 and if they are the same a success message is shown. Calculating it by hand would be too difficult so we can brute-force the password. 
+
+One of the valid passwords I found was ":Rew" but there might be more.
+
+Have a great day :)
+github.com/johnnnathan
