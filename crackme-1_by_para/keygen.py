@@ -8,13 +8,11 @@ def operate_upon(key):
     while key[length] != '\0':
         length += 1
 
-    esi = length  
-    ecx_2 = 0
+    length_2 = length  
 
     i = 0
 
-    while i <= esi - 1:
-        ecx_2 += 1
+    while i <= length_2 - 1:
         result = (ord(key[i]) + (result << 6)) % 0x989680
         i += 1
 
