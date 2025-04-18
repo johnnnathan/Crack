@@ -1,0 +1,4 @@
+To solve this challenge we need to patch the binary. The creator says in the description that we solve it by guaranteeing victory on the side of the defending team (us). In the main function two pairs of values are initialize: {100,0x14}, {100,0xA}. The first pair is the health and damage of the attacker and the second of the defender. With each iteration of the loop each party attacks the other until one of their healths becomes less than 1. We could modify the values of the defender to make them invincible or incredibly strong, or we could chang the "TEST EAX, EAX --- JG LAB_X" command to "TEST EAX, EAX --- JMP LAB_X" to never allow the loss message to be shown. There are many other ways to solve this challenge too.
+
+Have a great day :)
+github.com/johnnnathan
