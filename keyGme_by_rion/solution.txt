@@ -1,0 +1,4 @@
+The program asks us to provide a password consisting of 16 capital alphabetic and numeric characters. A function then calculates the checksum of the first 15 characters using "checksum = ((checksum + character ) >> 1) % 0xf00 + 0xa". If the final character of the string is equal to the checksum value that was computed the success message is shown.
+
+Have a great day :)
+github.com/johnnnathan
