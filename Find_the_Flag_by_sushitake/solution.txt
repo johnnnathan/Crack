@@ -1,0 +1,4 @@
+This is a pretty cool challenge, we give the program our password and it compares it agains the stored password. The stored password is stored inside the main function but it uses strcpy calls in such a way that characters are overwritten by the strings in subsequent calls. Patching them together will result in "meilovecats" which if given to the program will show us a "yay" message.
+
+Have a great day :)
+github.com/johnnnathan
