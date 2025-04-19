@@ -1,0 +1,9 @@
+At first, the program asks us to decide if we want to open the crackme, open the credits or exit out. Opening the crackme will ask us to provide a username and a password. The fifth character of the username is compared against the character '@' and the password is compared against "pointerhell". If both are correct a success message is shown.
+
+Example. 
+  Username: ABCD@FG
+  Password: pointerhell
+
+
+Have a great day :)
+github.com/johnnnathan
