@@ -1,0 +1,4 @@
+The password is stored in plaintext: 1ecc7dd7b9763028e119e5046268d922
+
+Have a great day :)
+github.com/johnnnathan

@@ -1,0 +1,7 @@
+This is a .NET program which means that we can use dotPeek to get a good decompiled view of the code. At the top of the "Form1" object we can find the operation "Base64Encode("-o-o-o-o-o-o-o-o-o-o-o-o-")" and towards the bottom a comparison of "user0x1" with the contents of the first input field and the result of the base64 encoding with the contents of the second one. If they are both equal the CTF flag gets shown.
+
+Password:
+ LW8tby1vLW8tby1vLW8tby1vLW8tby1vLQ== 
+
+Have a great day :)
+github.com/johnnnathan

@@ -1,0 +1,23 @@
+This program iterates over all of the characters of the username and performs a character-wise xor operation with the key 0x4. Then it adds the length of the username to the xored value and stores it in a different variable. If the resulting string is equal to the given password, a success message is show.
+
+  
+
+Example:
+
+  
+Username:
+asdf
+
+  
+
+Password:
+
+  
+ i{df 
+
+  
+
+Have a great day :)
+
+  
+github.com/johnnnathan

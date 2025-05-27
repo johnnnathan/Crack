@@ -1,0 +1,8 @@
+The program has the string "0xJam3z" stored in plaintext, and then performs a character-wise xor operation on it with the key 0x6d. The given password is then put through the same operation, and the outputs are compared. This means that we can give "0xJam3z" to get the success message, which was probably a design flaw that was overlooked by the developer.
+
+  
+
+Have a great day :)
+
+  
+github.com/johnnnathan

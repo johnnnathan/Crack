@@ -1,0 +1,8 @@
+The program first asks for a License Key and then calls the "dogrula" function with it as an argument. Inside it a lot of string objects are created and initialized with different values. The given string is compared against the string at location "local_48", which corresponds to y3qrcbfa32q. Giving y3qrcbfa32q to the program as the License key will result in "True" being printed to the terminal.
+
+  
+
+Have a great day :)
+
+  
+github.com/johnnnathan

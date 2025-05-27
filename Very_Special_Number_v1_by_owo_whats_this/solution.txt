@@ -1,0 +1,18 @@
+Solution for Normal Mode:
+
+  
+
+Open the executable using pwndbg. Disassemble the main function and you fill find a call to the "generate" function. Inside it some values are loaded from the stack, into the rax, rcx and rdx registers, and then used as arguments for the "genNum" function.
+
+  
+
+The genNum function consists of 6 switches, with each of them performing a different mathematical operation upon the given data, depending on the second to last argument that is passed to it. The program executes the first branch (0th), since the value is hard-coded. Inside it the values of the first two arguments, and 0x2a are added, and the result stored in memory. At the end of the function it is checked if the result is zero, or a negative number, and if that is the case, the genNum function is executed again, recursively.
+
+  
+
+The values of the two arguments that are added are 0x82245e15d and 0x1169283672. The result of the operation in decimal form is 109713430479, which if given as input will give us a success message.
+
+  
+
+Have a great day :)
+github.com/johnnnathan

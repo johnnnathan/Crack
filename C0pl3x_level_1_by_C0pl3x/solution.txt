@@ -1,0 +1,8 @@
+The program asks for a username and a password. Disassembling the main function we can see that the credentials are stored in plaintext. Giving "admin" as the username and "C0pl3x" as the password will print "You Win !" to the terminal.
+
+  
+
+Have a great day :)
+
+  
+github.com/johnnnathan

@@ -1,0 +1,20 @@
+The program reads our username and password and then verifies if it is a correct combination. The program runs the length of the username through a function that determines if it's from 2 to 7 characters long the correct password is the username with "@fsociety" appended to the end of it. If it's longer than 7 characters it adds "Mr." to the start of the username as the password.
+
+  
+
+Example:
+
+Username:
+ as 
+Password:
+ as@fsociety 
+
+Username:
+ asdasdas 
+Password:
+ Mr.asdasdas 
+
+Have a great day :)
+
+  
+github.com/johnnnathan

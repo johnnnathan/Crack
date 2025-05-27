@@ -1,0 +1,9 @@
+Open the program with a decompiler and search for strings. Inside the main function the password is stored in plaintext. Give it as the password and you will see the success message.
+
+Password:
+ 123214456 
+
+Have a great day :)
+
+  
+github.com/johnnnathan

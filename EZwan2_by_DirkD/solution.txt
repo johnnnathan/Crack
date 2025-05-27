@@ -1,0 +1,17 @@
+This program stores the string "Congratulations you did it!" in a variable, and 0x32b6e514 in another. Then the length of the input gets validated to make sure that it is not larger than 8 characters long. 8 iterations are performed, where the character of the message at the index determined by the lowest four bytes of the hex value is compared against the ith character of the input. The program exits out if they are not equal, and at the end of each iteration the hexadecimal value is shifted to the right by 4 bits.
+
+  
+
+Simply put, iterate over the hexadecimal value in reverse and find the character in the string at that position. Finding all the values gives us
+
+  
+ roasting 
+
+  
+
+, which if given as input will show us the success message.
+
+  
+
+Have a great day :)
+github.com/johnnnathan
