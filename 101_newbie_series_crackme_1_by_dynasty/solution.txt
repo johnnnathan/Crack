@@ -1,3 +1,10 @@
+# Crackme Name: 101_newbie_series_crackme_1
+# Author: dynasty
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/101-newbie-series-crackme-1-by-dynasty-by-crackmes-de-47860
+
 Open the exeucutable in your disassembler of choice. We can see a printf call asking the user for the password and a scanf after. The given password is compared against the value `1234`. Giving `1234` as input to the program will result in 5 "You cracked it!" messages being printed in the terminal.
 
 Have a great day :)

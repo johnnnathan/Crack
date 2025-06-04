@@ -1,3 +1,10 @@
+# Crackme Name: ASCII
+# Author: Yekong
+# Platform: Linux
+# Difficulty: Easy
+# Tags: Cryptography
+# Challenge URL: https://crackmy.app/crackmes/ascii-by-yekong-88621
+
 This is not really a crackme challenge but rather a custom data obfuscator. The program asks for a key and then returns a string of numbers. The author tells us that the title is a hint, so turning the numbers into ASCII gives us text that is different from what we gave it. Analyzing the program using a decompiler will show us that the program loops over the characters of the string, turns them into hex and then subtracts 0d10 from them. The results of all characters are turned into a single string and returned. 
 
 Example:

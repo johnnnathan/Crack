@@ -1,3 +1,10 @@
+# Crackme Name: crackme 2 
+# Author: leevion
+# Platform: Windows
+# Difficulty: Easy
+# Tags: VisualBasic, Plaintext
+# Challenge URL: https://crackmy.app/crackmes/crackme-2-by-leevion-by-crackmes-de-09520
+
 This is a Visual Basic program so we can use VB Decompiler Lite to disassemble it. Inside the frmTrial Object of the code tab we can find "txtIthinkyouhavetodisassemblethis". Disassembling it and looking through the code we can find "Hack the Hacker" and "(F!-4.5/(..T]" saved as strings. Using the first string as the username and the second as the password and then pressing the "Activate" button will show us a success message.
 
 Have a great day :)

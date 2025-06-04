@@ -1,3 +1,10 @@
+# Crackme Name: 100HealthGame 
+# Author: Aryan123
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Patching, Assembly
+# Challenge URL: https://crackmy.app/crackmes/100healthgame-by-aryan123-48568
+
 A valid solution for this challenge according to the creator is to patch the program so that the health increases by 10, instead of decreasing, when the "Enter" key is pressed. Inside the main function we can find `SUB dword ptr [ESP + 1c], 0xa`. Inside ghidra we can right click the operation and patch it. Instead of using the "SUB" operation we will use the "ADD" operation. We can then export the program and execute it. We will see that in our version the health value goes up.
 
 Have a great day :)

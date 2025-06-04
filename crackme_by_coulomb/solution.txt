@@ -1,3 +1,10 @@
+# Crackme Name: crackme 
+# Author: coulomb
+# Platform: Windows
+# Difficulty: Easy 
+# Tags: .NET, 
+# Challenge URL: https://crackmy.app/crackmes/crackme-by-coulomb-by-keciciler-by-crackmes-de-22496
+
 This is a .NET application so we can use dotPeek to get the full decompilation of the program. Inside WindowsApplication2/Form1/Button1_Click function there is a concatenation of strings that the password is compared against. The password must be equal to Label6.Text + Label7.Text + Username + Label8.Text. If they are equal a success message is shown.
 
 Example:

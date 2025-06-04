@@ -1,3 +1,11 @@
+# Crackme Name: Beginner Challenge
+# Author: kropesiunia
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Assembly, Patching
+# Challenge URL: https://crackmy.app/crackmes/beginner-challenge-by-kropesiunia-27418
+
+
 For this challenge we are only expected to patch the function to always accept a password. I encountered some issues with this 
 program and I was not able to execute it, my solution should be correct but may require some minor tweaks.
 

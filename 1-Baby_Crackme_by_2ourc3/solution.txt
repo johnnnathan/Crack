@@ -1,3 +1,11 @@
+# Crackme Name: 1 - Baby Crackme
+# Author: 2ourc3
+# Platform: Windows
+# Difficulty: Easy
+# Tags: XOR, BruteForce
+# Challenge URL: https://crackmy.app/crackmes/1-baby-crackme-by-2ourc3-25816
+
+
 This is a unique challenge because the program does not check if the value is correct, rather we need to find the flag ourselves using context clues. The input that we give acts as a key in an XOR operation with the string "\"3 \"*,$". Instead of doing it manually I loaded the string up in CyberChef and used the "XOR Brute Force" recipe. The output where the key is equal to 0x61 results in "=CRA=CKME", and I assume that this is the correct value since no others come close to legible.
 
 Have a great day :)

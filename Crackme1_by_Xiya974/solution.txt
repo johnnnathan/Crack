@@ -1,3 +1,10 @@
+# Crackme Name: Crackme1 
+# Author: Xiya974
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Debugging
+# Challenge URL: https://crackmy.app/crackmes/crackme1-by-xiya974-48994
+
 The main function starts with printing a message and asking for input. After that a lot of operations occur that are difficult to understand. At the bottom of the function there is a memcmp call with the given and the stored password. The stored password is stored in plaintext and if we give "^254N;bQF5x*qu" as input we will get shown an "Access granted!" message.
 
 Have a great day :)

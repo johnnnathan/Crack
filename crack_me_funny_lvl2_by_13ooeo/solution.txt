@@ -1,3 +1,10 @@
+# Crackme Name: crack me funny lvl2 
+# Author: 13ooeo
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/crack-me-funny-lvl-2-by-13ooeo-77154
+
 At first, the program asks us to decide if we want to open the crackme, open the credits or exit out. Opening the crackme will ask us to provide a username and a password. The fifth character of the username is compared against the character '@' and the password is compared against "pointerhell". If both are correct a success message is shown.
 
 Example. 

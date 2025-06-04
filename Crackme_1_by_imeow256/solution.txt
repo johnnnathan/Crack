@@ -1,3 +1,10 @@
+# Crackme Name: Crackme 1 
+# Author: imeow256
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/crackme-1-easypeasy-by-imeow256-39259
+
 Open the program with ghidra and find the main function using the strings tab. Inside it five variables get initialized using the values 'g', 'i', 'v', 'e' and the null character. Then the input is compared against this string and if they are the same a success message is shown. 
 
 

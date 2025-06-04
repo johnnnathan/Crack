@@ -1,3 +1,10 @@
+# Crackme Name: Crackme Speedrun 
+# Author: piggy63
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/crackme-speedrun-by-piggy63-17990
+
 Open the executable using x32dbg, search for strings and find the "Password:" string. Near it you can find "qwerty" saved as a string. Before the strcmp call there is another function call that performs anti-debugging, turn that into nop and step through the execution, you will be able to see a "Correct" message before the window shuts down.
 
 

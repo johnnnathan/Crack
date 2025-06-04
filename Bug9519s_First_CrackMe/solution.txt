@@ -1,6 +1,11 @@
-I had some problems with executing this program due to some missing dlls, but with static analysis it is quite simple to understand.
+# Crackme Name: Bug9519's First Crackme
+# Author: Bug9519
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/bug9519-s-first-crackme-5828
 
-  
+I had some problems with executing this program due to some missing dlls, but with static analysis it is quite simple to understand.
 
 At first the program initializes two variables with the strings "SuperSecretPassword" and "ThisIsNotThePassword". Some messages are printed to the terminal and the program asks from the user to give their password for verification. Then, the lengths of the given and the stored password are compared, and if they are not the same, the program shows a failure message. A "memcmp" call is made, with the given password and the "ThisIsNotThePassword" variable, and the success message is shown in the case that the return value is 0, meaning that the two strings are the same.
 

@@ -1,3 +1,11 @@
+# Crackme Name: Basic Crackme ConsoleBased
+# Author: TheFakeKing
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/basic-crackme-consolebased-by-thefakeking-77433
+
+
 Inside the main function there is an infinite loop inside of which the "GetPassword" function keep getting called. Inside the function some messages are printed to the terminal and the input is accepted from the user. The given password is compared against the stored password which is stored in plaintext. Giving "ErhwHwrhrwWhrwwHwhr" as the input will pause the execution of the program until we shut it down manually, meaning that we found the correct password.
 
 Have a great day :)

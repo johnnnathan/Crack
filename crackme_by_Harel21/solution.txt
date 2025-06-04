@@ -1,0 +1,15 @@
+# Crackme Name: crackme 
+# Author: Harel21
+# Platform: Linux
+# Difficulty: Easy
+# Tags: Keygen
+# Challenge URL: https://crackmy.app/crackmes/crackme-by-harel21-92742
+
+The program accepts a username and a password and then performs some mathematical operations upon the username before comparing the result to the password. Depending on the length of the username the operations will be different. We could use a debugger to find the correct password of a given username but we can easily copy the code into python and create a keygen, since it is mostly unobfuscated.
+
+Example:
+  Username: abc
+  Password: 2
+
+Have a great day :)
+github.com/johnnnathan

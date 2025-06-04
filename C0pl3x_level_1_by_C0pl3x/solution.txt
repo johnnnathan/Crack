@@ -1,3 +1,10 @@
+# Crackme Name: C0pl3x level 1 
+# Author: C0pl3x
+# Platform: Windows
+# Difficulty: Easu
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/c0pl3x-level-1-by-c0pl3x-49330
+
 The program asks for a username and a password. Disassembling the main function we can see that the credentials are stored in plaintext. Giving "admin" as the username and "C0pl3x" as the password will print "You Win !" to the terminal.
 
   
