@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: very easy ccrackme 
+# Author: matitv
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/very-easy-crackme-for-newbies-by-matitv-by-crackmes-de-87473
 
 Running this application we will see a nice banner and a message asking us for the password. Giving wrong input to the program gives us a failure message and it asks us again for the password until we input the correct password. If we disassemble the program and find the main method we will be able to see the std::cout calls making up the banner of the program. Below the "Write password: " line we can find a comparison of our given password with the string "SweetCake". Giving "SweetCake" as the input to the program will give us a "Congratulations!" message.
 

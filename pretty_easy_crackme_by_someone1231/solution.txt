@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: pretty easy crackme
+# Author: someone1231
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/pretty-easy-crackme-by-someone1231-60595
 
 Open the program with a decompiler and search for strings. Inside the main function the password is stored in plaintext. Give it as the password and you will see the success message.
 

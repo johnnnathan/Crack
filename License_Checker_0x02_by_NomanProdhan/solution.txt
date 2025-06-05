@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: License Checker 0x02 
+# Author: NomanProdhan
+# Platform: Linux
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/license-checker-0x02-by-nomanprodhan-93709
 
 This challenge is very similar to the first level but this time we need to pass both a correct username and a password argument to 
 the executable to  get the success message. The same method can be used to solve the challenge. Use strings on the executable and 

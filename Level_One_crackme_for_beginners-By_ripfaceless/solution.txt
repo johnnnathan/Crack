@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: Level One crackme 
+# Author: ripfaceless
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/level-one-crackme-for-beginners-by-ripfaceless-31977
 
 This program requires us to pass the password as an argument. Inside the main function a conditional checks if an argument has been given, and if it has it compares the given password against the stored password inside the _validate_key function. Inside it we can find "uedfluefeqcfdofodcsdoweogey4857498549fneuncqpn" which serves as the stored password. 
 

@@ -1,11 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
-
-Solution to "VeryEasyCrackme" by _int2eh 
+# Crackme Name: VeryEasyCrackme 
+# Author: _int2eh 
+# Platform: Windows
+# Difficulty: Medium
+# Tags: Keygen, Decompilation
+# Challenge URL: https://crackmy.app/crackmes/veryeasycrackme-by-int2eh-21483
 
 In reality it really was very easy, despite the fact that I spent an hour decoding it :|.
 

@@ -1,24 +1,16 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: XORSTR C++
+# Author: zhys3
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/xorstr-c-password-by-zhys3-63983
 
 The program asks for a password, and after giving it, opens a new windows that says "Better luck next time". The executable is well obfuscated and that means that we cannot easily find the main function, nor the place where input is handled through looking for strings in Ghidra.
 
-  
-
 Instead of disassembling/decompiling the program, we can debug it. Using x64dbg, we can search for Intermodular Calls and then guess the function which the program uses to input/output data. Searching for "printf" doesn't return anything, but "std::cin" does. Spreading breakpoints over the following operations and looking at the data stored inside the registers we can find the password string inside of RCX. Giving that as input will open a window with a success message this time.
-
-  
 
 Password:
  CANTCRACKME 
 
-  
-
 Have a great day :)
-
-  
 github.com/johnnnathan

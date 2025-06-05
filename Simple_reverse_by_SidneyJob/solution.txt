@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: Simple reverse
+# Author: SidneyJob
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/simple-reverse-by-sidneyjob-07845
 
 The password is stored in plaintext: 1ecc7dd7b9763028e119e5046268d922
 

@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: Very Easy CrackMe
+# Author: szlug3ns
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/very-easy-crackme-by-szlug3ns-56326
 
 For this challenge we can use only a debugger to find the password. Inside the main function set a breakpoint before the memcmp call and look at the CPU registers, inside rdx you will be able to find "1ecc7dd7b9763028e119e5046268d922" which if given as input will show us a "Congrats!" message.
 

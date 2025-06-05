@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: Lvl:1.0
+# Author: Cnz
+# Platform: Windows
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/lvl-1-0-cnz-by-cnz-12877
 
 The program first asks for a License Key and then calls the "dogrula" function with it as an argument. Inside it a lot of string objects are created and initialized with different values. The given string is compared against the string at location "local_48", which corresponds to y3qrcbfa32q. Giving y3qrcbfa32q to the program as the License key will result in "True" being printed to the terminal.
 

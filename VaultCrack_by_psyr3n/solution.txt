@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: VaultCrack
+# Author: psyr3n
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Decompilation
+# Challenge URL: https://crackmy.app/crackmes/vaultcrack-by-psyr3n-30894
 
 Solution to "VaultCrack" by psyr3n
 

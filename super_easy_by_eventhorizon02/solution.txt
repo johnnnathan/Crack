@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
+# Crackme Name: super easy
+# Author: eventhorizon02
+# Platform: Linux
+# Difficulty: Easy
 # Tags: 
-# Challenge URL: 
+# Challenge URL: https://crackmy.app/crackmes/super-easy-by-eventhorizon02-77559
 
 Load up ghidra and open the binary.
 

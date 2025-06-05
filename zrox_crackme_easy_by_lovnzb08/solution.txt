@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: zrox's crackme easy
+# Author: lovnzb08
+# Platform: Windows
+# Difficulty: Easy
+# Tags: .NET
+# Challenge URL: https://crackmy.app/crackmes/zrox-s-crackme-easy-by-lovnzb08-99322
 
 Open dotPeek and import the executable. Look into the "olartik" component and then into the "Form1" component. There are a few pages 
 with code but the one we want to examine is the "txtKey" file. In the "btnLogin_Click" function, which executes whenever the "Giris" 

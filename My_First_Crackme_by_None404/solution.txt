@@ -1,50 +1,33 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: My First Crackme 
+# Author: None404
+# Platform: Windows
+# Difficulty: Hard
+# Tags: HoF 
+# Challenge URL: https://crackmy.app/crackmes/my-first-crackme-by-none404-43780
 
-Solution to "My First Crackme" by None404
-
-I want to preface this solution by mentioning that this might be a perfect crackme challenge. Some weeks ago I spent a lot of time on it and 
-was not able to solve it fully. I came back and analyzed it, after having gained some more experience, and after again a lot of hours I was
-able to decode the assembly and find the correct password. 
 
 Running this application we can see that this is yet another password only challenge. No username and thus no personalized key. Inside 
 the main method we can find some variables being initialized. The interesting variable is an array with five elements. Each index 
 contains a method pointer to a different function and in the following loop it iterates over each of the functions and executes them.  
 
-Statically analyzing each function we can quickly realize that the first one is a method that handles printing to the terminal, the second 
-one a function that handles input, and the three following ones part of a greater function with different entry points. 
+Statically analyzing each function we can quickly realize that the first one is a method that handles printing to the terminal, the second one a function that handles input, and the three following ones part of a greater function with different entry points. 
 
-In the input-handler method every character in the given string is altered and concatenated to a string in a different location. The characters 
-are XORed by a DAT variable(in ghidra), and looking inside the program's memory we can find that it holds the value of 0d77 or ox4D.
+In the input-handler method every character in the given string is altered and concatenated to a string in a different location. The characters are XORed by a DAT variable(in ghidra), and looking inside the program's memory we can find that it holds the value of 0d77 or ox4D.
 
-In the function that consists of the previously mentioned three sub-functions we can find many if-statements and loops. Although they are 
-quite menacing they boil down to three simple ideas. 
+In the function that consists of the previously mentioned three sub-functions we can find many if-statements and loops. Although they are quite menacing they boil down to three simple ideas. 
 
 1. A DAT object comparison with the value of "\0"
 2. An integer comparison of a certain variable with the value of 0x29 or 0d41
 3. A similar loop that can be found in the print method and calls to another method that achieves the same. 
 
-Using some simple reasoning and a guess I concluded that the variable of the second point stored the length of the given string(I prove this later).
-The DAT variable stumped me for a long time but in the end I skipped in in favour of understanding the rest of the program's flow. The main 
-thing we should keep in mind is that it usually results in the program's termination and a failure message since I have found it impossible to alter 
-its value into a non-zero one, naturally. 
+Using some simple reasoning and a guess I concluded that the variable of the second point stored the length of the given string(I prove this later). The DAT variable stumped me for a long time but in the end I skipped in in favour of understanding the rest of the program's flow. The main thing we should keep in mind is that it usually results in the program's termination and a failure message since I have found it impossible to alter its value into a non-zero one, naturally. 
 
 Performing some bit flips I could deduce the functionality of each call. 
 
-The first call is meant as a length evaluator. The previously referenced value of 0x29 is compared against a variable that holds the length of string 
-and returns before the DAT variable can result in an exit. Inputting a string of 41 1s(or any other combination of characters) will get you to the next 
-iteration of the loop. In the second method call the string comparison between the stored password and the given, and altered password, happens. It is 
-in the form of a simple loop where the program terminates if the two characters are not the same. The third method call mainly handles message printing 
-and is consequently unimporant. 
+The first call is meant as a length evaluator. The previously referenced value of 0x29 is compared against a variable that holds the length of string and returns before the DAT variable can result in an exit. Inputting a string of 41 1s(or any other combination of characters) will get you to the next iteration of the loop. In the second method call the string comparison between the stored password and the given, and altered password, happens. It is in the form of a simple loop where the program terminates if the two characters are not the same. The third method call mainly handles message printing and is consequently unimporant. 
 
 Going to the location in memory where the stored password exists we can see an array of characters. They are each separated 
-by three dots and of course they need to be removed. We are then left with the "+!,*`.|{/)x/.`+,}z`y|t,`|ty{y,|.}tz". XORing the string with the 
-value of 77 as was done in the challenge write-up of 2koy we are handed the string of "flag-216bd5bc-fa07-419a-be80-09464a1c0e97". Giving it 
-to the program results in a success message.
+by three dots and of course they need to be removed. We are then left with the "+!,*`.|{/)x/.`+,}z`y|t,`|ty{y,|.}tz". XORing the string with the value of 77 as was done in the challenge write-up of 2koy we are handed the string of "flag-216bd5bc-fa07-419a-be80-09464a1c0e97". Giving it to the program results in a success message.
 
 Note: In the first version of my XOR reversal script for some reason the first character past the "flag-" part was c, but that was not accepted.
 I had to manually perform the operation for that character. I do not know why that is but it should not affect you in any way. 

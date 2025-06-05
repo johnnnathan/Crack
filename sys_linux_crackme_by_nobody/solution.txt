@@ -1,0 +1,6 @@
+# Crackme Name: sys linux crackme
+# Author: nobody
+# Platform: Linux
+# Difficulty: Easy
+# Tags: 
+# Challenge URL: https://crackmy.app/crackmes/sys-linux-crackme-by-nobody-by-crackmes-de-15873

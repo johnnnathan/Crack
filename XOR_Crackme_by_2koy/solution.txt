@@ -1,11 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
-
-Solution to "XOR Crackme" by 2koy 
+# Crackme Name: XOR Crackme
+# Author: 2koy
+# Platform: ?
+# Difficulty: Medium 
+# Tags: Keygen
+# Challenge URL: https://crackmy.app/crackmes/xor-crackme-by-2koy-52638
 
 This is a simple C++ crackme that should not take more than half an hour to solve for even the newest Reverse Engineers.
 

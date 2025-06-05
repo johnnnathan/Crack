@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: Simple Crackme 
+# Author: EzDiaol
+# Platform: Windows
+# Difficulty: Hard 
+# Tags: Keygen, BruteForce
+# Challenge URL: https://crackmy.app/crackmes/simple-crackme-2-by-ezdiaol-74051
 
 I would like to preface this solution by stating that I encountered issues executing this application, meaning that I was only able to statically analyze the application and could not verify my solution through direct execution. The method which I used should work regardless though and you will be able to use my keygen to generate your own pass.
 

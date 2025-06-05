@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
+# Crackme Name: Terry Davis 
+# Author: 0x90
+# Platform: Windows
 # Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Tags: HoF
+# Challenge URL: https://crackmy.app/crackmes/terry-davis-9969
 
 In the entry function we can find a lot of method calls. There are about a dozen functions that print messages and one fgets function that handles input. At the end of the print statements and before the loop we can find a line where a variable is initialized with the value "Terry Davis was awesome !". Giving that as the input will open a new window with a "Congratulations!" message.
 

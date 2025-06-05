@@ -1,9 +1,9 @@
-# Crackme Name: 
-# Author: 
-# Platform: 
-# Difficulty: 
-# Tags: 
-# Challenge URL: 
+# Crackme Name: PIDXploit
+# Author: psyr3n
+# Platform: Windows
+# Difficulty: Easy
+# Tags: MISC
+# Challenge URL: https://crackmy.app/crackmes/pidxploit-by-psyr3n-31533 
 
 Load up the executable in your favourite disassembler and locate the main method. There is a printf call , then a scanf function 
 handling our input and a call to _generate_password. Inside the function the ID of the current process is fetched and added to 
