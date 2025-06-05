@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Solution to "StillAching's CrackMe" by StillAching 
 
 This is a relatively easy CrackMe despite having a 6.0 difficulty rating at this moment. 

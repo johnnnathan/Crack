@@ -1,3 +1,10 @@
+# Crackme Name: my first crackme
+# Author: kvfs
+# Platform: Windows
+# Difficulty: Medium
+# Tags: 
+# Challenge URL: https://crackmy.app/crackmes/my-first-crackme-by-kvfs-93326
+
 Solution to "my first crackme" by kvfs
 
 When starting this application we are only asked for a password. Since there is no username requirement I immediately knew that this 

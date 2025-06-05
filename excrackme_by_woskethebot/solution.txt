@@ -1,3 +1,10 @@
+# Crackme Name: ezcrackme 
+# Author: woskethebot
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/ezcrackme-by-woskethebot-86387
+
 This challenge can be solved through static analysis, but I found the decompilation to be a bit annoying to read, so I used a 
 debugger instead.
 

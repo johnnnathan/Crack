@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 The program uses an unsecured "memcmp" call with the given and the stored password as arguments. That means that we can set a breakpoint at the operation and look at the register values, using a debugger. Inside the RCX register we can find the given password and the RDX register the stored password.
 
 Password:

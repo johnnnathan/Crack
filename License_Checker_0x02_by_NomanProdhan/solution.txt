@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 This challenge is very similar to the first level but this time we need to pass both a correct username and a password argument to 
 the executable to  get the success message. The same method can be used to solve the challenge. Use strings on the executable and 
 at the top of the logs you will find the "NomanProdhan" and "KS-LICENSE-KEY-2021-REV-2" strings. Using them as arguments satisfies

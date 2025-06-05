@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 The key is stored inside the main function in plaintext. The program first checks if the length of the given password and the stored passwrod are the same and then uses a memcmp call to see if the two are the same. The key is "fdooFPOkfp0[90PFJIKpofj9[00PFJ[OPjkfopj[OPFJ[pfj0PJFOPjfopJFPOjfopk]FolpjfoFjfop[1JKFOPjfpKFLK;jofjKOLP'FJKLjfklFJKf" and if we give it to the program we will get a "Key is correct" message. 
 
 Have a great day :)

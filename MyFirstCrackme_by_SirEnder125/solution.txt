@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Using GDB we can quickly solve this challenge. Disassembling the main function and using 'x/s' on one of the string addresses will show us the string "crackmes4ever:)". Giving that will show us a "Correct" message. We are then asked to provide a pin to the program. In the disassembly of the test function we can find a "strlen" call with a comparison with 0xf immediately after. The content of the pin is not examined, only the length of it, so any combination of characters that is equal to 15 is correct. The length should be 15 and not 16 because the newline character at the end is also considered.
 
 Have a great day :)

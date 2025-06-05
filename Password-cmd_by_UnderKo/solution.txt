@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 The evaluation function for the given password is quite simple. The given input is passed through the sscanf() function with the %d 
 type parameter, this means that the programs tries to extract an integer from the input and store the output to another variable. 
 The output is then compared against the value 10 and if they are equal the success message is shown. This means that we just need 

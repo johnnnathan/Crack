@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 This program is statically compiled which means that there are a lot of libraries being included alongside the code. We can search for strings inside of Ghidra and look for messages that are related to the program. Luckily most strings are stored in plaintext so searching for "Welcome to Miraiis 500$ Program!" will bring us to the location where the strings are defined. Close to it we can also find the strings "YourACoolHackerman" and "CrackMeByMiraii", which if given as the username and password will make a success message show up in a new window.
 
   

@@ -1,3 +1,10 @@
+# Crackme Name: Easiest Crackme for Beginners 
+# Author: Mamilate1
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/easiest-crackme-for-beginners-by-mamilate1-44273
+
 Disassemble the program and find the main function, there is only one variable that is initialized. The value of the variable 
 is 0x4d2 or"1234" in ASCII. Pass "1234" as the input to the program and the window will shut down. To see the output of the program, 
 load the executable into a debugger and find the same location you were at by running the program until it stops. Put a couple 

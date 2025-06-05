@@ -1,4 +1,9 @@
-Solution to "dotqw's first c(rack me)" by 0ya3um1
+# Crackme Name: dotqw's first c
+# Author: 0ya3um1
+# Platform: Windows
+# Difficulty: Easy
+# Tags: .NET, Plaintext
+# Challenge URL: https://crackmy.app/crackmes/dotqw-s-first-c-by-0ya3um1-83868
 
 This is the first .NET application that I have cracked, so I needed some new tools to crack this program.
 I did attempt to use ghidra to decompile, and x64dbg to debug but neither of them were helpful. JetBrains' "dotPeek" application

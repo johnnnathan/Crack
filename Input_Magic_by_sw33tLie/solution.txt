@@ -1,3 +1,10 @@
+# Crackme Name: Input Magic  
+# Author: sw33tLie
+# Platform: Windows
+# Difficulty: Easy
+# Tags: 
+# Challenge URL: https://crackmy.app/crackmes/input-magic-by-sw33tlie-88863
+
 Some setup is done at the top of the main function and then the program asks for a license. The input that is given is then processed further by storing only the first character of the string in a separate variable. The first character is then used in the following conditional statements:
 
 char % 60 == 3

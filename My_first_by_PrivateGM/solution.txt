@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Inside the main function there is a stacked function call where the inner call handles output and the outer one input. The address of the variable containing the password is passed to it and then an operation is performed upon it. All the characters making up the given password are summed together and the sum is compared against the value 0x42 or 66 in decimal. The character with the ASCII value of 0x42 is 'B' and if we give it as input we will get a success message.
 
 Have a great day :)

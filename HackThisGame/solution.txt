@@ -1,3 +1,10 @@
+# Crackme Name: Hack This Game
+# Author: Kryptic
+# Platform: Windows
+# Difficulty: Medium
+# Tags: MISC
+# Challenge URL: https://crackmy.app/crackmes/hack-this-game-4879 
+
 The first level of this game requires us to gather 5 Million coins, this would take too long of course to do manually so we will have 
 to find the memory location that holds the value of collected coins. This can be done using CheatEngine. 
 Attach CE to the process and then start scanning the memory. Since the value of collected coins appears above the the player 
@@ -12,3 +19,6 @@ note is the fact that since the origin point of the coordinate system is positio
 instead of increasing, when moving up(GUI libraries like javafx work the same way). There are more addresses this time with the same 
 value, many of them mirroring the address that we are searching for, but the correct one can be found using method we used for Level 1. 
 Change the value of the correct address to -1200, follow the maze until you have reached the end.
+
+Have a great day :)
+github.com/johnnnathan

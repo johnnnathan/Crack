@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 I would like to preface this solution by stating that I encountered issues executing this application, meaning that I was only able to statically analyze the application and could not verify my solution through direct execution. The method which I used should work regardless though and you will be able to use my keygen to generate your own pass.
 
 The application first prints a query message and then stores input of size 12 to a variable. It computes the length of the input up to the newline character and checks whether it is within the allowed limit. The string is null-terminated and it is passed to another function to be operated upon. 

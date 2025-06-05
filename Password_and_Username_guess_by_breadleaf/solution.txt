@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 When we run the program it asks us to provide two strings that are separated by a space. We can consider the first string 
 to be the username and the second one the password.
 

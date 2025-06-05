@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Load up ghidra and open the binary.
 
 Inside the main function there is a call to "check_pass()". Follow the call and you will see two interesting things. The password is 

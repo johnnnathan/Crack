@@ -1,3 +1,10 @@
+# Crackme Name: Easy to crack
+# Author: whiter0se
+# Platform: Windows
+# Difficulty: Easy
+# Tags: 
+# Challenge URL: https://crackmy.app/crackmes/easy-to-crack-by-whiter0se-38517
+
 In the description of the challenge the creator tells us that the password is stored as an integer inside the application. This means that searching for strings won't give us anything of importance. Inside the main function a "puts" call is made and after it a call to a custom function. Inside it a "scanf" call is made with the value being stored in the third argument. The third argument is then compared against the value "502590" and if the given password is equal to it a success message is shown. 
 
 Have a great day :)

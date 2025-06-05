@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 This is a pretty simple challenge. The program first asks us to hand it a password and then reads a maximum of 255 bytes. The input is then ran through the "encryptInput" function and then compared against the stored password "v`fw`qUdvvrjwa476". If the encrypted given password and the stored password are the same, a success message is shown to the user. The "encryptInput" function is a simple xor encryptor that loops over the characters of the string while XORing them with the value 0d5. Running the stored password through the decryptor will give us "secretPassword123".
 
 

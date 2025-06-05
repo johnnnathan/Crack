@@ -1,3 +1,10 @@
+# Crackme Name: Interesting Crackme
+# Author: BananaGrease
+# Platform: Windows
+# Difficulty: Medium
+# Tags: Decompilation, Keygen
+# Challenge URL: https://crackmy.app/crackmes/interesting-crackme-by-bananagrease-07969
+
 Solution to "Interesting Crackme" by BananaGrease
 
 Very simple challenge, to get back into groove. I completed this challenge through just the debugger.

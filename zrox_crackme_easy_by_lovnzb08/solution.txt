@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Open dotPeek and import the executable. Look into the "olartik" component and then into the "Form1" component. There are a few pages 
 with code but the one we want to examine is the "txtKey" file. In the "btnLogin_Click" function, which executes whenever the "Giris" 
 button is pressed, we can find a line comparing the input we gave the program to the "sifreyok" string.  Giving that as input will 

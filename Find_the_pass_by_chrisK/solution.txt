@@ -1,3 +1,10 @@
+# Crackme Name: Find the pass 
+# Author: chrisK
+# Platform: Windows
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/find-the-pass-by-chrisk-39817
+
 The program uses arguments to accept the password. As a condition in the if statements the given password is compared against "pcx|xpzlhgu}" using a memcmp call. If the two strings are equal then a success message is shown
 
 Have a great day :)

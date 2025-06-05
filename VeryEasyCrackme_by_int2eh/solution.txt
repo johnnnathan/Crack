@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Solution to "VeryEasyCrackme" by _int2eh 
 
 In reality it really was very easy, despite the fact that I spent an hour decoding it :|.

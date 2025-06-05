@@ -1,3 +1,10 @@
+# Crackme Name: Easy Password Reverse 
+# Author: Clyax
+# Platform: Windows
+# Difficulty: Easy
+# Tags: 
+# Challenge URL: https://crackmy.app/crackmes/easy-password-reverse-by-clyax-12549
+
 The program asks for a username and a password from the user. The ACII values of the characters that make up the username are summed together and the result stored. The password is parsed as a number and that means that non-numeric passwords will be registered as 0. The sum of the characters of the username must be equal to the number given as the password for the user to be granted access. In the case of a successful combination a "Good" message is shown.
 
 Example:

@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 The program asks for a password, and after giving it, opens a new windows that says "Better luck next time". The executable is well obfuscated and that means that we cannot easily find the main function, nor the place where input is handled through looking for strings in Ghidra.
 
   

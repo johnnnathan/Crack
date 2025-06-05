@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 Use strings on the executable and use the resulting "KS-LICENSE-KEY-2021-REV-1" string as an argument.
 
 Have a great day :)

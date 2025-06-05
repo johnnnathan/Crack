@@ -1,3 +1,10 @@
+# Crackme Name: easy linux crackme 
+# Author: lord
+# Platform: Linux
+# Difficulty: Easy
+# Tags: Plaintext
+# Challenge URL: https://crackmy.app/crackmes/easy-linux-crackme-by-lord-by-crackmes-de-42169
+
 The password is given as a command line argument. The given password is compared against the stored password: 0xdead. If the given password is equal to the stored password "Okej!" is printed to the terminal.
 
 

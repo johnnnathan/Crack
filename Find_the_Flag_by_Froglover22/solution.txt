@@ -1,3 +1,10 @@
+# Crackme Name: Find the Flag 
+# Author: Froglover22
+# Platform: Linux
+# Difficulty: Medium
+# Tags: Keygen, BruteForce, Cryptography
+# Challenge URL: https://crackmy.app/crackmes/find-the-flag-by-froglover22-93777
+
 To solve this challenge we are tasked with passing the correct key to the program as an argument that will decode a set of strings to create a valid system command. The program parses the given key and then loops over the string chunks while performing a masking and XOR operation on the chunks. If the system call at the end of the main function, which consists of the operated upon chunks, returns an error code, the program will output "Incorrect", otherwise the command will be executed normally. A mask of 0x1f is used in the loop which means that values above that will not result in new behavior. 
 
 We can brute-force this program by creating a bash script that tests all of the keys from 0x0 to 0x1f, and we can manually look at the output of each trial, to find the correct key. The value 0x0b gives us a success message.

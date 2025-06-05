@@ -1,3 +1,10 @@
+# Crackme Name: FLAG
+# Author: ArjunRajesh
+# Platform: Windows
+# Difficulty: Easy
+# Tags: MISC
+# Challenge URL: https://crackmy.app/crackmes/flag-by-arjunrajesh-57295 
+
 Opening the program as a text file using Notepad will give us access to all of the strings. At a certain point in the file we can see "Usage: ./crackme FLAG Wrong flag sup3r_s3cr3t_k3y_1337 You found a flag! %s". The flag is "sup3r_s3cr3t_k3y_1337".
 
 Have a great day :)

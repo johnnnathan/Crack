@@ -1,3 +1,10 @@
+# Crackme Name: 
+# Author: 
+# Platform: 
+# Difficulty: 
+# Tags: 
+# Challenge URL: 
+
 For this challenge we do not even need to open a disassembler. You can use the strings command using the executable as an argument and at the point where the "Enter the password: " message can be found, the password can too. 
 
 Pass "do_not_hardcode" as the password to the program and you will get a "Welcome!" message.
